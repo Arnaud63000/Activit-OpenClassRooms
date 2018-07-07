@@ -12,14 +12,7 @@ $membres = $bdd->query('SELECT * FROM membres ORDER BY id DESC')
 	<title>Administration</title>
 </head>
 <body>
-	<ul>
-		<?php while($m = $membres->fetch())  ?>
-		<li><?php echo $m['id'] ?> : <?php echo $m['pseudo'] ?>
-		
-				
-				 </li>
-		 
-	</ul>
+	
 
 </body>
 </html>	
